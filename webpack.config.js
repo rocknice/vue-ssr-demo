@@ -60,8 +60,8 @@ let webpackConfig = {
         filename: "scripts/[name].bundle.js"
     },
     devServer: {
-        // port:3000,
-        // hot:true,
+        port:8081,
+        hot:true,
     },
     plugins: [
         new VueLoaderPlugin(),
